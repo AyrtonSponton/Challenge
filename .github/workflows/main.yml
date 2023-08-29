@@ -5,4 +5,4 @@ jobs:
    runs-on: ubuntu-18.04
    steps:
      - name: deploy to staging
-       run: echo ${{ secret.SECRET1 }}
+       run: echo ${{ secrets.SECRET1 }}
