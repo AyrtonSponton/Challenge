@@ -8,5 +8,5 @@ jobs:
        id: test
        run: echo ${{ secrets.SECRET1 }}
      - name: test2
-       if: steps.test.outcome == "hola"
+       if: steps.test.outcome == hola
        run: echo "vamooo ñuebel"
