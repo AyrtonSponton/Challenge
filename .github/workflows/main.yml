@@ -2,7 +2,7 @@ on:
  push:
 jobs:
   my_job:
-   runs-on: ubuntu
+   runs-on: ubuntu-latest
    steps:
      - name: deploy to staging
        run: echo ${{ secrets.SECRET1 }}
